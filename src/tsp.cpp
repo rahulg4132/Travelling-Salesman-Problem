@@ -2,7 +2,7 @@
 #include <algorithm> // sort, next_permutation
 #include "tsp.h"
 using namespace std;
-
+int del;
 
 Graph::Graph(int V, int initial_vertex, bool random_graph) // constructor of Graph
 {
